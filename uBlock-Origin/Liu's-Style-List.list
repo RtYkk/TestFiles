@@ -1,0 +1,53 @@
+[Adblock Plus 2.0]
+! title: Liu's Style List
+! Version: 1.0
+! Expires: 2 days
+! Homepage: https://github.com/JPLiu/TestFiles/tree/main/uBlock-Origin
+
+! baidu
+! C 百度贴吧 版头图片尺寸调整
+tieba.baidu.com##.card_head:style(width: 48px !important; height: 48px !important)
+tieba.baidu.com##.card_head_img:style(width: 48px !important; height: 48px !important)
+! C 百度贴吧 个人贴吧清单字体调整
+tieba.baidu.com##td:style(font-family: Calibri !important; font-size: 13px !important)
+
+! bilibili
+! C 直播 播放器界面优化
+live.bilibili.com###rank-list-vm:style(height: 14px !important; border-radius: 12px 12px 0 0 !important; background-color: #f8f8f8 !important)
+
+! weibo
+! D-C Style 配合规则
+! 以下两条规则会移除微博主页面和搜索页的整个右侧栏
+! 如果不添加第一条，主页面栏目会被压缩；如果添加，用户主页的按时间搜索等右侧按钮也会被移除
+!weibo.com##div[class^="Main_side"]
+!s.weibo.com##div[class="main-side"]
+! C 微博 V7 界面优化
+! 以下两条规则会修改左侧栏，可根据自身显示屏修改。
+weibo.com##div[class^="Frame_side_"]:style(width: 182px !important)
+weibo.com##div[class^="Nav_main"]:style(width: 182px !important)
+! 以下两条规则会修改主要内容区的左侧对齐。
+weibo.com##div[class*="Frame_content"]:style(margin-left: 2% !important)
+! 以下几条规则会修改微博内容区的宽度，包括主页和用户主页，可根据自身显示屏修改。
+weibo.com##div[class^="Frame_main_"]:style(width: 975px !important)
+weibo.com##div[class^="Home_home"]:style(width: 975px !important)
+weibo.com##div[class^="Main_wrap"]:style(width: 975px !important)
+weibo.com##div[class^="Main_full"]:style(width: 975px !important)
+! 以下两条规则会修改信息流中微博视频和图片的显示大小。
+weibo.com##div[class^="card-video_videoBox"]:style(width: 75% !important; height: 75% !important)
+weibo.com##div[class*="card-article_pic"]:style(width: 60% !important; height: 60% !important)
+! 以下两条为调整信息流中图片的比例。
+weibo.com##div[class^="woo-picture-main woo-picture-square"]:style(width: 70% !important; height: 70% !important)
+weibo.com##div[class="woo-picture-main woo-picture-square woo-picture-hover"]:style(width: 90px !important; height: 90px !important)
+! 以下四条依次为调整信息流卡片、信息流、转发评论列表、图片大图右侧栏目评论、特殊栏目处理的文字大小。
+weibo.com##div[class^="card-link_text_"]:style(font-size: 13.5px !important; line-height: 25px !important)
+weibo.com##div[class^="detail_wbtext_"]:style(line-height: 26px !important; font-size: 15.5px !important)
+weibo.com##div[class="wbpro-list"]:style(line-height: 23.5px !important; font-size: 14.5px !important)
+weibo.com##div[class="info woo-box-flex woo-box-alignCenter woo-box-justifyBetween"]:style(font-size: 13px !important)
+! 以下几条规则会修改微博搜索页的宽度，调整位置和宽度，搜索结果的评论转发文字大小。
+s.weibo.com##div[class="m-main"]:style(margin-left: 2% !important)
+s.weibo.com##div[class="main-full"]:style(width: 975px !important)
+s.weibo.com##div[class="list"]:style(line-height: 23.5px !important; font-size: 14.5px !important)
+
+! wenku8
+! C 界面字体优化
+wenku8.net##div[id="content"]:style(font-family: Calibri !important; font-size: 15px !important;)

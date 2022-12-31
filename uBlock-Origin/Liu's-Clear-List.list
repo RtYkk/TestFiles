@@ -1,0 +1,300 @@
+[Adblock Plus 2.0]
+! title: Liu's Clear List
+! Version: 1.0
+! Expires: 2 days
+! Homepage: https://github.com/JPLiu/TestFiles/tree/main/uBlock-Origin
+
+! 网址清理规则
+! 参考：https://rules2.clearurls.xyz/data.minify.json
+
+! 通用清理规则
+$removeparam=from_source
+$removeparam=share_app_name
+$removeparam=share_medium
+$removeparam=share_source
+$removeparam=utm_medium
+$removeparam=utm_oi
+$removeparam=utm_source
+
+! 特定清理规则
+! 1688
+@@||login.1688.com^$removeparam
+||1688.com^$removeparam=extStr
+||1688.com^$removeparam=object_id
+||1688.com^$removeparam=object_type
+||1688.com^$removeparam=pvid
+||1688.com^$removeparam=resourceId
+||1688.com^$removeparam=scm
+||1688.com^$removeparam=spm
+||1688.com^$removeparam=topOfferIds
+||1688.com^$removeparam=tpp_trace
+||1688.com^$removeparam=udsPoolId
+
+! aliyundrive
+||aliyundrive.com^$removeparam=spm
+
+! apple
+||apple.com^$removeparam=app
+
+! baidu
+||baidu.com^$removeparam=/^rsv_/
+||baidu.com^$removeparam=f
+||baidu.com^$removeparam=ie
+||baidu.com^$removeparam=inputT
+||baidu.com^$removeparam=issp
+||baidu.com^$removeparam=prefixsug
+||baidu.com^$removeparam=rsp
+||baidu.com^$removeparam=tn
+||baike.baidu.com^$removeparam=/^lemma/
+||baike.baidu.com^$removeparam=bk_fr
+||baike.baidu.com^$removeparam=timestamp
+||wenku.baidu.com^$removeparam=/^rec_/
+||wenku.baidu.com^$removeparam=fr
+||wenku.baidu.com^$removeparam=sxts
+
+! bilibili
+@@||api.bilibili.com^$removeparam
+||bilibili.com^$removeparam=bbid
+||bilibili.com^$removeparam=callback
+||bilibili.com^$removeparam=from_source
+||bilibili.com^$removeparam=msource
+||bilibili.com^$removeparam=ts
+||live.bilibili.com^$removeparam=broadcast_type
+||live.bilibili.com^$removeparam=is_room_feed
+||live.bilibili.com^$removeparam=session_id
+||live.bilibili.com^$removeparam=visit_id
+
+! bing
+||bing.com^$removeparam=cvid
+||bing.com^$removeparam=form
+||bing.com^$removeparam=qp
+||bing.com^$removeparam=qs
+||bing.com^$removeparam=sc
+||bing.com^$removeparam=sk
+||bing.com^$removeparam=sp
+
+! cctv
+||cctv.com^$removeparam=spm
+
+! coolapk
+||coolapk.com^$removeparam=shareFrom
+||coolapk.com^$removeparam=shareUid
+
+! csdn
+||csdn.net^$removeparam=/^depth_/
+||csdn.net^$removeparam=/^utm_/
+||csdn.net^$removeparam=spm
+
+
+! disqus
+||disq.us^$removeparam=cuid
+
+! duckduckgo
+||duckduckgo.com/?q$removeparam=t
+
+! epicgames
+||epicgames.com^$removeparam=/^epic_/
+
+! firefox
+! 直接对 accounts.firefox.com 操作可能会影响登录同步
+@@||accounts.firefox.com^$removeparam
+||firefox.com^$removeparam=context
+||firefox.com^$removeparam=entrypoint
+||firefox.com^$removeparam=form_type
+
+! gitee
+||gitee.com^$removeparam=_from
+||gitee.com^$removeparam=hmsr
+
+! github
+||github.com^$removeparam=/^spm_/
+||github.com^$removeparam=email_source
+||github.com^$removeparam=email_token
+
+! google search
+||google.com*/search?$removeparam=/^gs/
+||google.com*/search?$removeparam=client
+||google.com*/search?$removeparam=ei
+||google.com*/search?$removeparam=gbv
+||google.com*/search?$removeparam=ie
+||google.com*/search?$removeparam=newwindow
+||google.com*/search?$removeparam=oe
+||google.com*/search?$removeparam=oq
+||google.com*/search?$removeparam=sclient
+||google.com*/search?$removeparam=sei
+||google.com*/search?$removeparam=ved
+||google.com*/search?$removeparam=uact
+
+! iqiyi
+iqiyi.com^$removeparam=/^vfrm/
+
+! itellyou
+itellyou.cn^$removeparam=ReturnUrl
+
+! jd
+||jd.com^$removeparam=cu
+||jd.com^$removeparam=linkIds
+
+! mi / miui
+@@||account.xiaomi.com^$removeparam
+$removeparam=ref,domain=app.mi.com|vip.miui.com
+||mi.com/*?product_id$removeparam=cfrom
+||vip.miui.com^$removeparam=app_version
+
+! mozilla
+@@||mozilla.org/api/$removeparam
+||mozilla.org^$removeparam=platform
+||mozilla.org^$removeparam=redirect_source
+||mozilla.org^$removeparam=src
+||mozillazine.org^$removeparam=sid
+||support.mozilla.org^$removeparam=as
+
+! oschina
+||oschina.net^$removeparam=_from
+
+! paypal
+paypal.com^$removeparam=returnUri
+paypal.com^$removeparam=state
+
+! portablefreeware
+||portablefreeware.com^$removeparam=ts
+
+! qq
+||mp.weixin.qq.com^$removeparam=/^abtest_/
+||mp.weixin.qq.com^$removeparam=/^fasttmpl_/
+||mp.weixin.qq.com^$removeparam=/^sharer_/
+||mp.weixin.qq.com^$removeparam=ascene
+||mp.weixin.qq.com^$removeparam=clicktime
+||mp.weixin.qq.com^$removeparam=enterid
+||mp.weixin.qq.com^$removeparam=lang
+||mp.weixin.qq.com^$removeparam=pass_ticket
+||mp.weixin.qq.com^$removeparam=realreporttime
+||mp.weixin.qq.com^$removeparam=sessionid
+||mp.weixin.qq.com^$removeparam=subscene
+||mp.weixin.qq.com^$removeparam=version
+||mp.weixin.qq.com^$removeparam=wx_header
+
+! reddit
+||reddit.com^$removeparam=/ref_/
+||reddit.com^$removeparam=_branch_match_id
+||reddit.com^$removeparam=correlation_id
+
+! sina
+||sina.cn^$removeparam=cid
+||sina.cn^$removeparam=from
+||sina.cn^$removeparam=node_id
+||sina.cn^$removeparam=vt
+
+! taobao / tmall
+@@||login.m.taobao.com^$removeparam
+@@||login.taobao.com^$removeparam
+@@||pass.tmall.com^$removeparam
+$removeparam=abbucket,domain=taobao.com|tmall.com
+$removeparam=abtest,domain=taobao.com|tmall.com
+$removeparam=acm,domain=taobao.com|tmall.com
+$removeparam=activity_id,domain=taobao.com|tmall.com
+$removeparam=algo_expid,domain=taobao.com|tmall.com
+$removeparam=algo_pvid,domain=taobao.com|tmall.com
+$removeparam=ali_refid,domain=taobao.com|tmall.com
+$removeparam=ali_trackid,domain=taobao.com|tmall.com
+$removeparam=app,domain=taobao.com|tmall.com
+$removeparam=bftRwd,domain=taobao.com|tmall.com
+$removeparam=bftTag,domain=taobao.com|tmall.com
+$removeparam=cpp,domain=taobao.com|tmall.com
+$removeparam=impid,domain=taobao.com|tmall.com
+$removeparam=locate,domain=taobao.com|tmall.com
+$removeparam=lygClk,domain=taobao.com|tmall.com
+$removeparam=mytmenu,domain=taobao.com|tmall.com
+$removeparam=ns,domain=taobao.com|tmall.com
+$removeparam=pos,domain=taobao.com|tmall.com
+$removeparam=price,domain=taobao.com|tmall.com
+$removeparam=pvid,domain=taobao.com|tmall.com
+$removeparam=rmdChannelCode,domain=taobao.com|tmall.com
+$removeparam=rn,domain=taobao.com|tmall.com
+$removeparam=scene,domain=taobao.com|tmall.com
+$removeparam=share_crt_v,domain=taobao.com|tmall.com
+$removeparam=shareurl,domain=taobao.com|tmall.com
+$removeparam=short_name,domain=taobao.com|tmall.com
+$removeparam=skuId,domain=taobao.com|tmall.com
+$removeparam=sku_properties,domain=taobao.com|tmall.com
+$removeparam=sourceType,domain=taobao.com|tmall.com
+$removeparam=sp_tk,domain=taobao.com|tmall.com
+$removeparam=spm,domain=taobao.com|tmall.com
+$removeparam=suid,domain=taobao.com|tmall.com
+$removeparam=trackInfo,domain=taobao.com|tmall.com
+$removeparam=turing_bucket,domain=taobao.com|tmall.com
+$removeparam=un,domain=taobao.com|tmall.com
+$removeparam=union_lens,domain=taobao.com|tmall.com
+$removeparam=user_number_id,domain=taobao.com|tmall.com
+$removeparam=ut_sk,domain=taobao.com|tmall.com
+$removeparam=utkn,domain=taobao.com|tmall.com
+$removeparam=utparam,domain=taobao.com|tmall.com
+
+! tb
+||tb.cn^$removeparam=sm
+
+! thunderbird
+||thunderbird.net^$removeparam=src
+
+! tiktok
+||tiktok.com^$removeparam=_d
+||tiktok.com^$removeparam=preview_pb
+||tiktok.com^$removeparam=timestamp
+||tiktok.com^$removeparam=share_iid
+||tiktok.com^$removeparam=source
+||tiktok.com^$removeparam=u_code
+||tiktok.com^$removeparam=user_id
+
+! twitter
+||twitter.com^$removeparam=s
+||twitter.com^$removeparam=cn
+||twitter.com^$removeparam=ref_url
+
+! weibo
+$removeparam=from,domain=d.weibo.com|s.weibo.com
+||s.weibo.com^$removeparam=Refer
+||weibo.com/p/$removeparam=from
+||weibo.com/tv/$removeparam=from
+||weibo.com/tv/show^$removeparam=mid
+||weibo.com/u/$removeparam=from
+||weibo.com^$removeparam=cfs
+! 下面这条会影响评论排序，暂时取消，针对特定页单独处理。
+!||weibo.com^$removeparam=from
+||weibo.com^$removeparam=leftnav
+||weibo.com^$removeparam=loc
+||weibo.com^$removeparam=mod
+||weibo.com^$removeparam=nick
+||weibo.com^$removeparam=refer_flag
+||weibo.com^$removeparam=wvr
+
+! weidian
+||weidian.com^$removeparam=/^vc_external_/
+||weidian.com^$removeparam=/^vc_order_/
+||weidian.com^$removeparam=adsk
+||weidian.com^$removeparam=spider_token
+
+! wps
+||wps.com^$removeparam=from
+
+! xiaomiyoupin
+||xiaomiyoupin.com^$removeparam=/^last_scmv/
+||xiaomiyoupin.com^$removeparam=/^scmv/
+||xiaomiyoupin.com^$removeparam=spmref
+
+! youku
+||youku.com^$removeparam=s
+||youku.com^$removeparam=scm
+||youku.com^$removeparam=spm
+||youku.com^$removeparam=tpa
+
+! youtube
+||youtube.com^$removeparam=feature
+||youtube.com^$removeparam=gclid
+||youtube.com^$removeparam=kw
+||www.youtube.com^$removeparam=app
+
+! zuimeia
+||zuimeia.com^$removeparam=?utm_source
+
+! zhihu
+||zhihu.com^$removeparam=origin_label
