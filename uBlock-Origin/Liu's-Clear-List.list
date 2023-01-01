@@ -134,6 +134,9 @@ itellyou.cn^$removeparam=ReturnUrl
 ! jd
 ||jd.com^$removeparam=cu
 ||jd.com^$removeparam=linkIds
+||jingfen.jd.com^$removeparam=d
+||jingfen.jd.com^$removeparam=needRecommendFlag
+||jingfen.jd.com^$removeparam=uabt
 
 ! mi / miui
 @@||account.xiaomi.com^$removeparam
