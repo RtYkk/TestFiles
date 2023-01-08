@@ -127,9 +127,6 @@ DOMAIN-SUFFIX,500d.me
 # 神奇宝贝百科 https://wiki.52poke.com
 DOMAIN-KEYWORD,52poke
 
-# 我爱无损音乐网 http://www.52wusun.com
-DOMAIN-SUFFIX,52wusun.com
-
 #-----AAA
 
 # ACG漫音社 http://www.acgjc.com/
@@ -145,9 +142,6 @@ DOMAIN-SUFFIX,addtoany.com
 # AnyFeeder https://plink.anyfeeder.com/
 DOMAIN-SUFFIX,anyfeeder.com
 
-# 反斗软件 http://www.apprcn.com/
-DOMAIN-SUFFIX,apprcn.com
-
 # AutoHotkey https://www.autohotkey.com/
 DOMAIN-SUFFIX,autohotkey.com
 
@@ -155,9 +149,6 @@ DOMAIN-SUFFIX,autohotkey.com
 
 ## Bangumi 番组计划 http://bgm.tv/ (部分网页会引用，如 acgdog)
 DOMAIN-SUFFIX,bgm.tv
-
-# Sukka's Blog https://blog.skk.moe/
-DOMAIN-SUFFIX,blog.skk.moe
 
 # BT之家 多域名
 DOMAIN-KEYWORD,btbtt
@@ -167,10 +158,6 @@ DOMAIN-KEYWORD,btbtt
 # Canva https://www.canva.cn/
 DOMAIN-SUFFIX,canva.cn
 DOMAIN-SUFFIX,canva.com
-
-# 动漫狂 https://www.cartoonmad.com/
-DOMAIN-SUFFIX,cartoonmad.com
-DOMAIN-SUFFIX,funs.me
 
 # i-Data https://www.cn-ki.net/
 DOMAIN-SUFFIX,cn-ki.net
@@ -188,28 +175,14 @@ DOMAIN-SUFFIX,dida365.com
 # 动漫之家 https://manhua.dmzj.com/
 DOMAIN-KEYWORD,dmzj.com
 
-# 萌子岛 https://www.dommdo.com
-DOMAIN-SUFFIX,dommdo.com
-
 #-----EEE
 
-# elib.cc https://elib.cc/
-DOMAIN-SUFFIX,elib.cc
-
-# ExcelOffice http://www.exceloffice.net/
-DOMAIN-SUFFIX,exceloffice.net
-
 #-----FFF
-
-# 文件蜈蚣 http://www.filecxx.com
-DOMAIN-SUFFIX,filecxx.com
 
 ### Firefox
 # Firefox 哔哩哔哩弹幕过滤器 https://s.xmcp.ml/pakkujs/
 DOMAIN-SUFFIX,xmcp.ml
 DOMAIN-SUFFIX,xmcp.ltd
-# Firefox 集装箱 https://i.newday.me/one/index/index.html
-DOMAIN-SUFFIX,newday.me
 # ViolentMonkey - RSS-Finder https://rssplus.vercel.app/
 DOMAIN-SUFFIX,vercel.app
 
@@ -237,9 +210,6 @@ DOMAIN-SUFFIX,guokr.com
 
 #-----HHH
 
-# 不死鸟 https://hao.su/
-DOMAIN-SUFFIX,hao.su
-
 # heartnn的自留地 https://www.heartnn.com/
 DOMAIN-SUFFIX,heartnn.com
 
@@ -256,9 +226,6 @@ DOMAIN-KEYWORD,hibitsoft
 
 # 异次元软件世界 https://www.iplaysoft.com/
 DOMAIN-SUFFIX,iplaysoft.com
-
-# 听蛙 https://www.itingwa.com/
-DOMAIN-SUFFIX,itingwa.com
 
 # 旅法师营地 https://www.iyingdi.com/
 DOMAIN-SUFFIX,iyingdi.com
@@ -301,9 +268,6 @@ DOMAIN-SUFFIX,ltaaa.com
 # Rom Patch JS https://www.whatismybrowser.com/
 DOMAIN-SUFFIX,marcrobledo.com
 
-# 漫画DB https://www.manhuadb.com/
-DOMAIN-SUFFIX,manhuadb.com
-
 # 魔笔小说 https://www.mobinovels.com/
 DOMAIN-SUFFIX,mobinovels.com
 
@@ -312,9 +276,6 @@ DOMAIN-SUFFIX,mobinovels.com
 #-----OOO
 
 #-----PPP
-
-# PearOCR https://pearocr.com/
-DOMAIN-SUFFIX,pearocr.com
 
 # PhotoKit https://photokit.com/?lang=zh
 DOMAIN-SUFFIX,photokit.com
@@ -325,9 +286,6 @@ DOMAIN-SUFFIX,processon.com
 #-----QQQ
 
 #-----RRR
-
-# Rime 输入法 https://rime.im/
-DOMAIN-SUFFIX,rime.im
 
 # 奔跑中的奶酪 https://www.runningcheese.com/
 DOMAIN-SUFFIX,runningcheese.com

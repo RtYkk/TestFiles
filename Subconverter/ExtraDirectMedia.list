@@ -17,7 +17,7 @@ DOMAIN-SUFFIX,yhdmjx.com
 
 #-----AAA
 
-# AGE 动漫 https://www.agemys.cc/
+# AGE 动漫 https://www.agemys.net/
 DOMAIN-KEYWORD,agemys
 DOMAIN-KEYWORD,agefans
 DOMAIN-KEYWORD,66dm
@@ -29,20 +29,9 @@ DOMAIN-KEYWORD,bimiacg
 DOMAIN-SUFFIX,huluxia.com
 DOMAIN-SUFFIX,zhuanfa301.com
 
-# アニメ新番組 https://bangumi.online/
-DOMAIN-SUFFIX,bangumi.online
-
 #-----CCC
 
 #-----DDD
-
-# 风车动漫 http://www.dm530.org/
-DOMAIN-KEYWORD,dm530
-DOMAIN-SUFFIX,doubao.cc
-DOMAIN-SUFFIX,dplayer.tv
-
-# 233动漫网 https://www.dm233.me
-DOMAIN-KEYWORD,dm233
 
 #-----EEE
 
@@ -56,13 +45,6 @@ DOMAIN-KEYWORD,dm233
 DOMAIN-SUFFIX,sb-cd.com
 
 #-----III
-
-# Ikunys https://www.ikunys.com/
-DOMAIN-SUFFIX,ikunys.com
-DOMAIN-SUFFIX,ikzybf.com
-
-DOMAIN-SUFFIX,imgikzy.com
-DOMAIN-SUFFIX,liangzipic.com
 
 #-----JJJ
 
@@ -78,10 +60,6 @@ DOMAIN-KEYWORD,mcar
 #-----NNN
 
 #-----OOO
-
-# OmoFun 动漫网 https://omofun.tv/
-DOMAIN-KEYWORD,omofun
-DOMAIN-SUFFIX,omo-pay.com
 
 #-----PPP
 
@@ -112,6 +90,8 @@ DOMAIN-SUFFIX,jsonplayer.com
 DOMAIN-KEYWORD,yinghuacd
 DOMAIN-KEYWORD,yhdmtu
 DOMAIN-SUFFIX,ssdm.cc
+DOMAIN-SUFFIX,doubao.cc
+DOMAIN-SUFFIX,dplayer.tv
 
 # 怡萱动漫 http://www.yxdm.fun/
 DOMAIN-KEYWORD,yxdm
