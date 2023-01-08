@@ -199,7 +199,6 @@ www.bilibili.com##.fresh-home-areas
 www.bilibili.com##.recommended-swipe
 www.bilibili.com##div.is-rcmd:nth-child(7)
 
-
 ! csdn
 ! D 解除登录提示
 blog.csdn.net##.login-mark
@@ -300,10 +299,6 @@ landian.vip,landiannews.com##section[id^=block-]
 ! D APP-推广
 www.lightnovel.us##.fixed-download
 
-! masiro
-! D 版面优化
-masiro.moe##.xg2.ptn
-
 ! mcar
 ! D 空白广告位
 mcar.cc,mcar.co,mcar.vip##[style^="background-color:#FF0;"], [style^="background-color:#FC0;"]
@@ -317,14 +312,6 @@ mgtv.com##.m-agreement
 ! 来源：https://bbs.kafan.cn/forum.php?mod=redirect&goto=findpost&ptid=2238400&pid=51760449
 pcbeta.com##div.wp>div:has(> div.pb_tan)
 pcbeta.com##div.wp>div:has(> div>div>div>div[class^="_jc"])
-
-! peopleapp
-! M 底部推荐内容（实际上不是广告）
-wap.peopleapp.com##.btm-recommend-wrapeer
-
-! pgyer
-! D 顶部 广告
-www.pgyer.com##.ad-container
 
 ! pingwest
 ! M APP-推广
@@ -353,12 +340,6 @@ m.smzdm.com##.foot-banner
 m.smzdm.com##.footer-banner
 m.smzdm.com##.new-zone
 
-! sohu
-! M 搜狐号 版面优化
-m.sohu.com###apkBannerM, #artRecNews, .art-sogou-hotw
-! D 搜狐号 版面优化
-www.sohu.com###right-side-bar, #articleAllsee, .groom-read
-
 ! thepaper
 ! M 滚动推广
 m.thepaper.cn###container
@@ -372,10 +353,6 @@ www.tsdm39.net##div.sign, td.tsdm_replybar.plc
 ! D 帖子左侧用户信息清理
 www.tsdm39.net##div.md_ctrl, div.qdsmile, div.tsdm_norm_title, .tsdm_lv_title
 www.tsdm39.net##.tsdm_statbar
-
-! tmtpost
-! M APP-推广
-m.tmtpost.com##.open-app
 
 ! totalcmd
 ! D 图片广告
@@ -401,24 +378,10 @@ s.weibo.com##div[class="main-side"]
 ! M Html5 版本界面，无意义推广
 m.weibo.cn##.wrap
 
-! xchina
-! D 底部广告 图片加载页面广告
-xchina.co##.bottomPush
-xchina.co##.photos > div.item
-
 ! xiaomi
 ! M 论坛 APP-推广
 bbs.xiaomi.cn##.bannerBottom
 www.miui.com###app, .app
-
-! xinhuanet
-! M APP-推广
-app.xinhuanet.com###footer_bar
-||app.xinhuanet.com/*/images/articleOpen.png$image
-
-! xueqiu
-! D APP-推广
-/download-app/banner_*.png$image,domain=xueqiu.com
 
 ! y444
 music.y444.cn##.ad1
