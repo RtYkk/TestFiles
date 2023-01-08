@@ -142,10 +142,6 @@ DOMAIN-SUFFIX,workflowy.com
 # 123apps https://123apps.com/
 DOMAIN-SUFFIX,123apps.com
 
-# 205 藏书馆（旧） http://205library.blogspot.com/
-DOMAIN-SUFFIX,blogblog.com
-DOMAIN-SUFFIX,timeanddate.com
-
 # 简单动漫 https://www.36dm.com/ 偶发异常
 DOMAIN-SUFFIX,36dm.com
 
@@ -167,14 +163,8 @@ DOMAIN-SUFFIX,acgnx.se
 # 零度动漫 https://bt.acgzero.com/
 DOMAIN-SUFFIX,acgzero.com
 
-# AIO Search https://www.aiosearch.com/
-DOMAIN-SUFFIX,aiosearch.com
-
 # Alternative To https://alternativeto.net/
 DOMAIN-SUFFIX,alternativeto.net
-
-# AnyTxt Searcher https://anytxt.net/
-DOMAIN-SUFFIX,anytxt.net
 
 # APKPure https://apkpure.com/cn/
 DOMAIN-SUFFIX,cdnpure.com
@@ -217,9 +207,6 @@ DOMAIN-SUFFIX,duyaoss.com
 
 #-----EEE
 
-# Elsevier https://www.elsevier.com/
-DOMAIN-SUFFIX,elsevier.com
-
 # Easy PDF https://easypdf.com/
 DOMAIN-SUFFIX,easypdf.com
 
@@ -235,10 +222,6 @@ DOMAIN-SUFFIX,na.cx
 DOMAIN-SUFFIX,eyny.com
 DOMAIN-SUFFIX,file-static.com
 DOMAIN-SUFFIX,static-file.com
-
-# EZTV https://eztv.io/
-DOMAIN-KEYWORD,ezimg
-DOMAIN-KEYWORD,eztv
 
 #-----FFF
 
@@ -483,9 +466,6 @@ DOMAIN-SUFFIX,tianshi.info
 
 #-----UUU
 
-# uGet Download Manager https://ugetdm.com/
-DOMAIN-SUFFIX,ugetdm.com
-
 #-----VVV
 
 # VideoHelp https://www.videohelp.com/
@@ -516,7 +496,7 @@ DOMAIN-SUFFIX,wpd.app
 
 #-----YYY
 
-# YOPmail http://www.yopmail.com/zh/
+# YOPmail https://www.yopmail.com/zh/
 DOMAIN-SUFFIX,yopmail.com
 
 #-----ZZZ
