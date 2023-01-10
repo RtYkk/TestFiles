@@ -232,6 +232,7 @@ $removeparam=user_number_id,domain=taobao.com|tmall.com
 $removeparam=ut_sk,domain=taobao.com|tmall.com
 $removeparam=utkn,domain=taobao.com|tmall.com
 $removeparam=utparam,domain=taobao.com|tmall.com
+$removeparam=scm,domain=taobao.com|tmall.com
 
 ! tb
 ||tb.cn^$removeparam=sm
